@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(37, 25, 59);
+    /* color:rgb(255, 255, 255); */
+}
+/* .container {
+    color:rgb(255, 255, 255);
+} */
+.stats-menu {
+    width: 100%; /* pełna szerokość */
+    height: auto;
+    background-color: rgb(60, 60, 179);
+    color:rgb(255, 255, 255);
+    font-size: 2.6ch;
+}
+  
+.stats-menu p {
+    /* margin-top: 5%; */
+    list-style-type: none; /* usuń punktory */
+    display:inline-block;
+    margin-left: 10%;
+    margin-top: 10px;
+    /* margin: 5px auto; usuń marginesy */
+    padding: 5px; /* usuń odstępy */
+    overflow: auto; /* rozwiązanie dla przeglądarek z małymi oknami */
+    white-space: nowrap; /* zabezpieczenie przed złamaniem wiersza */
+}
+
+.increase-count-button{
+    color:rgb(255, 255, 255);
+    font-size: 2.8ch;
+    width: 150px;
+    height: 150px;
+    border-radius: 75px; /* połowa szerokości/wysokości */
+    border-color: rgb(12, 121, 12);
+    background-color: rgb(60, 60, 179);
+    display: block;
+    margin: 10% auto;
+}
